@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="carrito.css"> <!-- Asegúrate de que esta ruta sea correcta -->
+</head>
+<body>
+    
+    <header>
+        <div class="header-content">
+            <div class="logo-and-about">
+                <div class="logo">Innovatech</div>
+                <a href="../../Inicio/index.html#footer" class="about-link">Quienes Somos</a>
+            </div>
+            <div class="nav-links">
+                <a href="../../Inicio/index.html">Inicio</a>
+                <a href="../Tienda/Celulares/celulares.php">Tienda</a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="cart">
+
+        
+        <h1>Carrito de Compras</h1>
+
+        <div id="empty-cart-message" style="display: none;">
+            <p>El carrito está vacío. Agrega productos para verlos aquí.</p>
+        </div>
+
+        <table class="cart-table" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Aquí se agregarán los productos dinámicamente -->
+            </tbody>
+        </table>
+        <div class="pasarela">
+            <p>Subtotal: <span id="subtotal">S/ 0.00</span></p>
+            <p>Envío: S/ 20</p>
+            <p>Total: <span id="total">S/ 20.00</span></p>
+            <button class="checkout-btn">Proceder al Pago</button> <!-- Botón de proceder al pago -->
+        </div>
+     
+    </section>
+    
+    
+
+    <footer>
+        <p>&copy; 2024 Tienda de Tecnología. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="carrito.js"></script> <!-- Este archivo debe estar solo en carrito.html -->
+</body>
+</html>

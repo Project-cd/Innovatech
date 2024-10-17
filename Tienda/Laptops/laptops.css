@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 40px 20px;
+    max-width: 1500px; /* Establece un ancho máximo para el header */
+    margin: 0 auto; /* Centra el header en la página */
+    font-size: 1.5rem; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%; /* Asegura que el contenido ocupe todo el espacio del header */
+}
+
+.logo-and-about {
+    display: flex;
+    align-items: center; /* Alinea el logo y 'Quienes Somos' al centro */
+    gap: 80px; /* Espaciado entre el logo y 'Quienes Somos' */
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #f58634;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center; /* Alinea los enlaces y el carrito verticalmente */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cart-btn {
+    background-color: #f58634;
+    color: white!important;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Bloque de categorías */
+.categories {
+    background-color: #f9f9f9;
+    padding: 15px;
+    text-align: center; /* Centra el contenido dentro de la sección */
+    margin: 20px auto; /* Centra el contenedor en la página */
+    border: 1px solid #ddd; /* Borde ligero */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 80%; /* Ajusta el ancho a un porcentaje deseado */
+    max-width: 800px; /* Establece un ancho máximo para que no se extienda demasiado */
+}
+
+.category-list a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.products {
+    text-align: center;
+    padding: 40px;
+}
+
+
+.products h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Ancho del contenedor del producto */
+    text-align: center; /* Asegura que el texto esté centrado */
+    display: flex; /* Utiliza flexbox para centrar el contenido */
+    flex-direction: column; /* Alinea el contenido en columna */
+    align-items: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    margin: 0 auto; /* Asegúrate de que el contenedor del producto esté centrado */
+}
+.product-image {
+    width: 400px; /* Ajusta el ancho a 200px */
+    height: 300px; /* Ajusta la altura a 150px */
+    object-fit: contain; /* Ajusta la imagen para que quepa dentro del contenedor sin recortarse */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-bottom: 10px; /* Espaciado debajo de la imagen */
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.add-to-cart-btn {
+    background-color: #f58634;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 1em;
+}

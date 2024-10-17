@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 40px 20px;
+    max-width: 1500px; /* Establece un ancho máximo para el header */
+    margin: 0 auto; /* Centra el header en la página */
+    font-size: 1.5rem; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%; /* Asegura que el contenido ocupe todo el espacio del header */
+}
+
+.logo-and-about {
+    display: flex;
+    align-items: center; /* Alinea el logo y 'Quienes Somos' al centro */
+    gap: 80px; /* Espaciado entre el logo y 'Quienes Somos' */
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #f58634;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center; /* Alinea los enlaces y el carrito verticalmente */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cart-btn {
+    background-color: #f58634;
+    color: white!important;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*header*/
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: white;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.shop-btn {
+    background-color: #f58634;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.products .product img {
+    margin: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.about {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:#333333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+    color: #ffffff;
+}
+.products .product img {
+    transition: transform 0.3s ease; /* Hace que el movimiento sea suave */
+}
+
+.products .product img:hover {
+    transform: scale(1.05); /* Escala la imagen un 5% más grande */
+}
+html {
+    scroll-behavior: smooth;
+}
